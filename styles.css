@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "FranklinGothic";
+  src: url("./assets/fonts/Franklin-Gothic-Book.ttf");
+}
+
+@font-face {
+  font-family: "Asul";
+  src: url("./assets/fonts/asul-regular.ttf");
+}
+
+@font-face {
+  font-family: "Circular";
+  src: url("./assets/fonts/CircularStd-Black.otf");
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+.main-section {
+  width: 100vw;
+  display: flex;
+  padding: 4rem;
+  flex-direction: row;
+}
+
+.column {
+  flex: 1 1 0;
+}
+
+.sub-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.services-wrapper {
+  padding-left: 6rem;
+}
+
+.black {
+  background-color: black;
+}
+
+.section-header {
+  font-family: Circular;
+  font-size: 15px;
+  color: white;
+  border-bottom: 8px white solid;
+  width: 135px;
+  text-transform: uppercase;
+}
+
+.value-prop {
+  font-family: Asul;
+  color: white;
+  font-size: 34px;
+}
+
+.services-list {
+  font-family: FranklinGothic;
+  color: white;
+  list-style: none;
+  font-size: 20px;
+  padding-left: 0;
+  margin-right: 6rem;
+}
