@@ -18,11 +18,20 @@ body {
   margin: 0;
 }
 
-.main-section {
+.main-section-row {
   width: 100vw;
   display: flex;
   padding: 4rem;
   flex-direction: row;
+}
+
+.main-section-col {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
 }
 
 .column {
@@ -42,6 +51,10 @@ body {
   background-color: black;
 }
 
+.white {
+  background-color: white;
+}
+
 .section-header {
   font-family: Circular;
   font-size: 15px;
@@ -49,6 +62,12 @@ body {
   border-bottom: 8px white solid;
   width: 135px;
   text-transform: uppercase;
+}
+
+.section-header.inverted {
+  color: black;
+  border-bottom: 8px black solid;
+  text-align: center;
 }
 
 .value-prop {
@@ -64,4 +83,17 @@ body {
   font-size: 20px;
   padding-left: 0;
   margin-right: 6rem;
+}
+
+.email-link {
+  font-family: FranklinGothic;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.legal {
+  font-family: FranklinGothic;
+  font-size: 10px;
+  color: black;
 }
