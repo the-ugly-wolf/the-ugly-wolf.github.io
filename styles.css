@@ -13,9 +13,12 @@
   src: url("./assets/fonts/CircularStd-Black.otf");
 }
 
-body {
+html,
+body,
+div {
   overflow-x: hidden;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .main-section-row {
@@ -53,6 +56,69 @@ body {
 
 .white {
   background-color: white;
+}
+
+.hero {
+  width: 100vw;
+  min-height: 840px;
+  padding: 0;
+  justify-content: flex-start;
+  background: url('./assets/images/fish.png') no-repeat #F7E9E0;
+  background-position: -120px 0px;
+}
+
+.divider {
+  z-index: 10;
+  height: 8px;
+  width: 123px;
+  background-color: black;
+}
+
+.divider {
+  position: absolute;
+  top: 260px;
+  right: 33vw;
+  display: block;
+}
+
+.city-wrapper {
+  z-index: 10;
+  align-self: flex-start;
+}
+
+.brand-name {
+  position: absolute;
+  top: 10px;
+  left: 9vw;
+  font-family: Circular;
+  font-size: 55px;
+  text-transform: uppercase;
+}
+
+.description {
+  position: absolute;
+  top: 470px;
+  left: 70vw;
+  font-family: Asul;
+  font-size: 34px;
+  font-weight: 100;
+}
+
+.city {
+  position: absolute;
+  font-family: Circular;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.new-york {
+  top: 562px;
+  left: 21vw;
+}
+
+.los-angeles {
+  top: 632px;
+  left: 28vw;
 }
 
 .section-header {
@@ -96,4 +162,53 @@ body {
   font-family: FranklinGothic;
   font-size: 10px;
   color: black;
+}
+
+/*small screen styles*/
+@media only screen and (max-width: 1260px) and (min-width: 1025px) {
+  .divider {
+    right: 20vw;
+  }
+  .description {
+    top: 420px;
+  }
+}
+
+/*small screen styles*/
+@media only screen and (max-width: 1024px) {
+  .hero {
+    min-height: 1550px;
+    background-position: -14vw 450px;
+    top: 75px;
+    left: 25vw;
+  }
+  .brand-name {
+    top: 75px;
+    left: 25vw;
+    font-size: 96px;
+    text-align: center;
+  }
+  .description {
+    top: 290px;
+    left: 25vw;
+    font-size: 56px;
+    text-align: center;
+  }
+  .divider {
+    width: 226px;
+    height: 16px;
+    top: 812px;
+    right: 36vw;
+  }
+  .city {
+    font-size: 40px;
+  }
+  .new-york {
+    top: 1200px;
+    left: 25vw;
+  }
+  .los-angeles {
+    top: 1300px;
+    left: 50vw;
+  }
 }
