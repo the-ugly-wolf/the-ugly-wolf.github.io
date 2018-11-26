@@ -14,31 +14,40 @@
 }
 
 html,
-body,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #F7E9E0;
+}
 div {
   overflow-x: hidden;
   margin: 0;
   box-sizing: border-box;
 }
 
-.main-section-row {
+.info-section {
   width: 100vw;
+  height: 540px;
   display: flex;
   padding: 4rem;
   flex-direction: row;
+  background-color: black;
 }
 
-.main-section-col {
+.footer-section {
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 4rem;
+  background-color: white;
 }
 
 .column {
   flex: 1 1 0;
+  margin-top: 50px;
 }
 
 .sub-section {
@@ -48,14 +57,6 @@ div {
 
 .services-wrapper {
   padding-left: 6rem;
-}
-
-.black {
-  background-color: black;
-}
-
-.white {
-  background-color: white;
 }
 
 .hero {
@@ -128,6 +129,8 @@ div {
   border-bottom: 8px white solid;
   width: 135px;
   text-transform: uppercase;
+  padding-bottom: 16px;
+  letter-spacing: 0.1rem;
 }
 
 .section-header.inverted {
@@ -140,6 +143,7 @@ div {
   font-family: Asul;
   color: white;
   font-size: 34px;
+  margin-right: 70px;
 }
 
 .services-list {
@@ -164,7 +168,7 @@ div {
   color: black;
 }
 
-/*small screen styles*/
+/* medium screen styles */
 @media only screen and (max-width: 1260px) and (min-width: 1025px) {
   .divider {
     right: 20vw;
@@ -174,7 +178,7 @@ div {
   }
 }
 
-/*small screen styles*/
+/* small screen styles */
 @media only screen and (max-width: 1024px) {
   .hero {
     min-height: 1550px;
@@ -210,5 +214,37 @@ div {
   .los-angeles {
     top: 1300px;
     left: 50vw;
+  }
+  .section-header {
+    font-size: 45px;
+    width: 405px;
+  }
+  .info-section {
+    height: 2720px;
+    padding: 8rem;
+    flex-direction: column;
+  }
+  .value-prop {
+    font-size: 85px;
+    margin-right: 0;
+  }
+  .services-wrapper {
+    padding: 0;
+  }
+  .services-list {
+    font-size: 60px;
+  }
+  .sub-section {
+    flex-direction: column;
+  }
+  .column {
+    flex: 0 0 auto;
+  }
+  .email-link {
+    font-size: 60px;
+  }
+  .legal {
+    font-size: 20px;
+    margin: 180px 0;
   }
 }
