@@ -64,8 +64,8 @@ div {
   min-height: 840px;
   padding: 0;
   justify-content: flex-start;
-  background: url('./assets/images/fish.png') no-repeat #F7E9E0;
-  background-position: -120px 0px;
+  background: url('./assets/images/fish.jpg') no-repeat #F7E9E0;
+  background-position: -360px -70px;
 }
 
 .divider {
@@ -77,8 +77,8 @@ div {
 
 .divider {
   position: absolute;
-  top: 260px;
-  right: 33vw;
+  top: 315px;
+  right: 34vw;
   display: block;
 }
 
@@ -89,8 +89,8 @@ div {
 
 .brand-name {
   position: absolute;
-  top: 10px;
-  left: 9vw;
+  top: 50px;
+  left: 8vw;
   font-family: Circular;
   font-size: 55px;
   text-transform: uppercase;
@@ -98,11 +98,11 @@ div {
 
 .description {
   position: absolute;
-  top: 470px;
-  left: 70vw;
+  top: 510px;
+  left: 73vw;
   font-family: Asul;
   font-size: 34px;
-  font-weight: 100;
+  font-weight: lighter;
 }
 
 .city {
@@ -113,13 +113,13 @@ div {
 }
 
 .new-york {
-  top: 562px;
+  top: 650px;
   left: 21vw;
 }
 
 .los-angeles {
-  top: 632px;
-  left: 28vw;
+  top: 730px;
+  left: 27vw;
 }
 
 .section-header {
@@ -169,20 +169,17 @@ div {
 }
 
 /* medium screen styles */
-@media only screen and (max-width: 1260px) and (min-width: 1025px) {
+@media only screen and (max-width: 1310px) and (min-width: 1025px) {
   .divider {
     right: 20vw;
-  }
-  .description {
-    top: 420px;
   }
 }
 
 /* small screen styles */
 @media only screen and (max-width: 1024px) {
   .hero {
-    min-height: 1550px;
-    background-position: -14vw 450px;
+    min-height: 1900px;
+    background-position: -45vw 450px;
     top: 75px;
     left: 25vw;
   }
@@ -192,6 +189,7 @@ div {
     width: 100vw;
     font-size: 96px;
     text-align: center;
+    font-weight: lighter;
   }
   .description {
     top: 290px;
@@ -203,26 +201,28 @@ div {
   .divider {
     width: 226px;
     height: 16px;
-    top: 812px;
-    right: 36vw;
+    top: 950px;
+    right: 41vw;
   }
   .city {
     font-size: 40px;
+    font-weight: lighter;
   }
   .new-york {
-    top: 1200px;
+    top: 1450px;
     left: 25vw;
   }
   .los-angeles {
-    top: 1300px;
-    left: 50vw;
+    top: 1600px;
+    left: 43vw;
   }
   .section-header {
     font-size: 45px;
+    font-weight: lighter;
     width: 405px;
   }
   .info-section {
-    height: 2720px;
+    height: 2730px;
     padding: 8rem;
     flex-direction: column;
   }
