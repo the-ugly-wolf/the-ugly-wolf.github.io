@@ -188,13 +188,15 @@ div {
   }
   .brand-name {
     top: 75px;
-    left: 25vw;
+    left: 0;
+    width: 100vw;
     font-size: 96px;
     text-align: center;
   }
   .description {
     top: 290px;
-    left: 25vw;
+    left: 0;
+    width: 100vw;
     font-size: 56px;
     text-align: center;
   }
