@@ -65,7 +65,7 @@ div {
   padding: 0;
   justify-content: flex-start;
   background: url('./assets/images/fish.jpg') no-repeat #F7E9E0;
-  background-position: -360px -70px;
+  background-position: -360px -90px;
 }
 
 .divider {
@@ -73,11 +73,8 @@ div {
   height: 8px;
   width: 123px;
   background-color: black;
-}
-
-.divider {
   position: absolute;
-  top: 315px;
+  top: 295px;
   right: 34vw;
   display: block;
 }
@@ -89,7 +86,7 @@ div {
 
 .brand-name {
   position: absolute;
-  top: 50px;
+  top: 30px;
   left: 8vw;
   font-family: Circular;
   font-size: 55px;
@@ -98,7 +95,7 @@ div {
 
 .description {
   position: absolute;
-  top: 510px;
+  top: 490px;
   left: 73vw;
   font-family: Asul;
   font-size: 34px;
@@ -113,12 +110,12 @@ div {
 }
 
 .new-york {
-  top: 650px;
+  top: 630px;
   left: 21vw;
 }
 
 .los-angeles {
-  top: 730px;
+  top: 710px;
   left: 27vw;
 }
 
