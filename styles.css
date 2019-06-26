@@ -37,7 +37,7 @@ div {
   display: flex;
   padding: 4rem;
   flex-direction: row;
-  background-color: black;
+  background-color: #243333;
 }
 
 .footer-section {
