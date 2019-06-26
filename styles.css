@@ -13,6 +13,11 @@
   src: url("./assets/fonts/CircularStd-Black.otf");
 }
 
+@font-face {
+  font-family: "Dallas";
+  src: url("./assets/fonts/Dallas-Bold.otf");
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -88,7 +93,7 @@ div {
   position: absolute;
   top: 30px;
   left: 8vw;
-  font-family: Circular;
+  font-family: Dallas;
   font-size: 55px;
   text-transform: uppercase;
 }
@@ -104,7 +109,7 @@ div {
 
 .city {
   position: absolute;
-  font-family: Circular;
+  font-family: Dallas;
   font-size: 20px;
   text-transform: uppercase;
 }
