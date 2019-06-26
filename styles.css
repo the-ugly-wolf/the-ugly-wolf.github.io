@@ -96,6 +96,8 @@ div {
   font-family: Dallas;
   font-size: 55px;
   text-transform: uppercase;
+  letter-spacing: 6px;
+  word-spacing: -15px;
 }
 
 .description {
