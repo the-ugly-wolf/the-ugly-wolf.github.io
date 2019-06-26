@@ -77,7 +77,7 @@ div {
   z-index: 10;
   height: 8px;
   width: 123px;
-  background-color: black;
+  background-color: #243333;
   position: absolute;
   top: 295px;
   right: 34vw;
@@ -138,7 +138,7 @@ div {
 }
 
 .section-header.inverted {
-  color: black;
+  color: #243333;
   border-bottom: 8px black solid;
   text-align: center;
 }
@@ -162,14 +162,14 @@ div {
 .email-link {
   font-family: FranklinGothic;
   font-size: 20px;
-  color: black;
+  color: #243333;
   text-decoration: none;
 }
 
 .legal {
   font-family: FranklinGothic;
   font-size: 10px;
-  color: black;
+  color: #243333;
 }
 
 /* medium screen styles */
